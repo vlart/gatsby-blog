@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { strictEqual } from 'assert';
+import PostListing from "../components/Posts/PostListing"
 
 const IndexPage = ({data}) => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site "{data.site.siteMetadata.title}" </p>
-    <p>Now go build something great.</p>
+    <h2>Posts</h2>
+    {data.allMarkdownRemark.edges.map(({node})=> <PostListing key={node.id} post={node}/>)}
   </div>
 )
 
@@ -18,6 +18,25 @@ export const query = graphql`
       siteMetadata {
         title
         desc
+      }
+    }
+    allMarkdownRemark(sort: {
+      fields:[frontmatter___date],
+      order:DESC
+    }){
+      edges{
+        node{
+          id
+          frontmatter{
+            title
+            date(formatString: "DD MMM ~YY")
+          }
+          fields{
+            slug
+          }
+          html
+          excerpt(pruneLength: 250)
+        }
       }
     }
   }
