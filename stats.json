@@ -1,0 +1,62 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-8f2378d6ebc28b13bd28.js",
+      "component---src-pages-index-js-8f2378d6ebc28b13bd28.js.map"
+    ],
+    "path---": [
+      "path----4dfd0089bd0ce62fe16c.js",
+      "path----4dfd0089bd0ce62fe16c.js.map"
+    ],
+    "component---src-posts-post-page-js": [
+      "component---src-posts-post-page-js-b86c123cb12a518bfa7b.js",
+      "component---src-posts-post-page-js-b86c123cb12a518bfa7b.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-3529a83b1785d8ea397f.js",
+      "component---src-layouts-index-js-3529a83b1785d8ea397f.js.map"
+    ],
+    "path---index": [
+      "path---index-0b40d0100b652b9c9994.js",
+      "path---index-0b40d0100b652b9c9994.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-5a98e6e60a10e1028b17.js",
+      "commons-5a98e6e60a10e1028b17.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-bbc805e8cd311283bb90.js",
+      "build-js-styles.css",
+      "app-bbc805e8cd311283bb90.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-9b54b6b44a8450118986.js",
+      "component---src-pages-about-js-9b54b6b44a8450118986.js.map"
+    ],
+    "path---posts-post": [
+      "path---posts-post-6a1a1fbc672154dc2b8a.js",
+      "path---posts-post-6a1a1fbc672154dc2b8a.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---posts-sec-post": [
+      "path---posts-sec-post-64dc7fdeaf2860ce81e0.js",
+      "path---posts-sec-post-64dc7fdeaf2860ce81e0.js.map"
+    ]
+  }
+}
